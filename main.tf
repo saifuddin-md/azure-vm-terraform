@@ -11,3 +11,13 @@ module "network" {
   resource_group_name = module.resource_group.name
   location            = module.resource_group.location
 }
+
+module "vm" {
+  source = "./modules/vm"
+
+  resource_group_name = module.resource_group.name
+  location            = module.resource_group.location
+
+  subnet_id       = module.network.subnet_id
+  public_key_path = var.public_key_path
+}
