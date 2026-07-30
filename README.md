@@ -1,5 +1,18 @@
 # Azure VM setup using Terraform
 
+This project deploys an Ubuntu Linux Virtual Machine on Microsoft **Azure** using Terraform.
+
+The infrastructure is organized using reusable Terraform modules for:
+
+1. Resource Group
+2. Virtual Network
+3. Subnet
+4. Network Security Group
+5. Public IP Address
+6. Network Interface
+7. Ubuntu Linux Virtual Machine
+
+---
 ## Diagram
 
 <p align="center">
