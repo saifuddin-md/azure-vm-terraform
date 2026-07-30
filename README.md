@@ -29,19 +29,19 @@ This project deploys an Ubuntu Linux Virtual Machine on Microsoft **Azure** usin
 - Visual Studio Code
 - An active Azure subscription
 
-- **Verify Terraform:**
+**Verify Terraform:**
 ```bash
 terraform --version
 ```
-- **Verify Azure CLI:**
+**Verify Azure CLI:**
 ```bash
 az version
 ```
-- **Login to Azure:**
+**Login to Azure:**
 ```bash
 az login
 ```
-- **Verify the active Azure subscription:**
+**Verify the active Azure subscription:**
 ```bash
 az account show
 ```
