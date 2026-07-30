@@ -9,7 +9,6 @@
 ## Prerequisites
 
 **Install the following tools:**
-
 - Terraform
 - Azure CLI
 - Git
@@ -17,24 +16,28 @@
 - An active Azure subscription
 
 **Verify Terraform:**
+```bash
 terraform --version
-
+```
 **Verify Azure CLI:**
+```bash
 az version
-
+```
 **Login to Azure:**
+```bash
 az login
-
+```
 **Verify the active Azure subscription:**
+```bash
 az account show
-
+```
 
 ## Terraform Deployment
 
 ####  Clone the repo:
 ```bash
-   git clone 
-   cd 
+   git clone https://github.com/saifuddin-md/azure-vm-terraform.git
+   cd azure-vm-terraform
  ```
 #### 2. Copy and edit variables: (Update variable values as needed — VPC, CIDR, public key, region, etc.)
  ```bash
