@@ -3,5 +3,5 @@
 ## Diagram
 
 <p align="center">
-  <img src="./doc/image/image-vm" alt="LEMP Diagram" width="900">
+  <img src="./doc/image-vm.png" alt="LEMP Diagram" width="900">
 </
