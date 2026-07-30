@@ -6,6 +6,7 @@
   <img src="./doc/image-vm.png" alt="LEMP Diagram" width="900">
 </
 
+---
 ## Prerequisites
 
 **Install the following tools:**
